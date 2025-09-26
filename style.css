@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 60px;
+    width: 100vw;
+    color: white;
+    background-color: #0F1111;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+}
+
+.border {
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    border: 2px solid white;
+}
+
+.logo {
+    height: 50px;
+    width: 150px;
+    background-image: url("img.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.box2 {
+    width: 200px;
+    color: white;
+}
+
+.box2 i {
+    height: 25px;
+
+}
+
+#loc {
+    display: flex;
+}
+
+.box3 select {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+}
+
+.search {
+    height: 50px;
+    border: none;
+
+}
+
+.box3 input {
+    width: 500px;
+}
+
+
+.box3 i {
+    color: white;
+    height: 25px;
+}
+
+
+.box4 {}
+
+.sign {
+    font-size: 1rem
+}
+
+.acnt {
+    font-size: 1.25rem;
+    font-weight: 200px;
+}
+
+
+.box6 {
+    display: flex;
+    align-items: flex-end;
+}
+
+.box6 i {
+    font-size: 40px;
+}
+
+
+.nav2 {
+    height: 40px;
+    width: 100vw;
+    background-color: #233449;
+    color: white;
+    display: flex;
+
+    cursor: pointer;
+}
+
+.nb2 {
+    margin-left: 10px;
+
+}
+
+.nb3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+}
+
+.n2img {
+    background-image: url(pic/nav.png);
+    height: 35px;
+    background-size: cover;
+    width: 60px;
+    position: absolute;
+    right: 200px;
+}
+
+.fest {
+    position: absolute;
+    right: 55px;
+
+}
+
+/*body section start*/
+
+.herosec {
+    background-image: url(pic/hero.png);
+    background-size: cover;
+    height: 40vh;
+}
+
+.shop {
+    width: 100vw;
+    background-color: rgb(234, 231, 231);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shopbox1 {
+    margin: 15px;
+    height: 400px;
+    width: 350px;
+    background-color: white;
+    align-self: center;
+}
+
+.shopbox1 img {
+    margin: 50px 20px;
+}
+
+.shopbox1 p {
+    font-size: 1.25rem;
+    font-weight: bolder;
+}
+
+/*footer start*/
+
+footer a {
+    cursor: pointer;
+}
+
+.f1 {
+    height: 50vh;
+    width: 100vw;
+    background-color: #233449;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 25px;
+    border-bottom: 1px solid #7a8ba0;
+}
+
+.f1 p {
+    font-weight: bolder;
+    margin-top: 20px;
+}
+
+.f1 ul li {
+    cursor: pointer;
+    list-style: none;
+}
+
+.f1 ul li:hover {
+    text-decoration: underline;
+}
+
+.f2 {
+    height: 10vh;
+    width: 100vw;
+    background-color: #233449;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.f2 img {
+
+    height: 17vh;
+
+}
+
+.flast {
+    height: 30vh;
+    background-color: #0F1111;
+    color: white;
+}
+
+.f3 {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.f3 div {
+    margin: 25px;
+}
+
+
+.f3 div p {
+    font-weight: bold;
+}
+
+.f3 ul li {
+    list-style: none;
+}
+
+.f3 div a {
+    font-size: small;
+    color: #c1cad4;
+}
+
+.f3 div:hover {
+    text-decoration: underline;
+}
+
+
+.cond {
+    display: flex;
+    justify-content: center;
+}
+
+.cond a {
+    margin-right: 20px;
+}
+
+.cond a:hover {
+    text-decoration: underline;
+}
+
+
+.copy {
+    margin-top: 30px;
+    text-align: center;
+    color: #DDDDDD;
+    font-size: small;
+    line-height: 20px;
+}
